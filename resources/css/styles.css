@@ -1,6 +1,6 @@
 body {
+
 	font-size:18px;
-	background-color: black;
 	font-family:Helvetica;
 }
 
@@ -10,14 +10,31 @@ header img {
 	padding-left: 0.5rem;
 }
 
-
 header {
+	background-color:black;
+}
+
+header div {
 	display: flex;
+	align-items: center;
+	background-color: black;
 	color: white;
-	padding: 0.66rem auto;
+	padding-top: 0.66rem;
+ 	padding-bottom: 0.66rem;
+
 }
 
-.container {
-
+.container-size {
 	width: 960px;
+	margin: 0 auto;
 }
+
+.FrontPage {
+	height: 25rem;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/moto.jpeg)
+}
+
