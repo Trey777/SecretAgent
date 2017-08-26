@@ -13,9 +13,8 @@ header img {
 
 header {
 	display: flex;
-	flex-grow: 2;
 	color: white;
-	padding: 0.6rem auto;
+	padding: 0.66rem auto;
 }
 
 .container {
